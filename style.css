@@ -1,0 +1,34 @@
+body,html{
+  margin: 10px;
+  padding: 10px;
+  font-family: 'Patrick Hand',cursive;
+  background-color: black;
+}
+
+h1{
+  font-size: 30px;
+  color: white;
+  text-shadow: 2px 2px grey;
+}
+
+h2{
+  font-size: 26px;
+  color:white;
+  text-shadow: 2px 2px grey;
+}
+
+p{
+  font-size: 24px;
+  animation: color 3s infinite;
+}
+
+@keyframes color {
+  0%{color: #AAC9CE;}
+  30%{color: #C9BBC8;}
+  60%{color: #E5C1CD;}
+  100%{color: #B6B4C2;}
+}
+p:hover{
+  transition: padding-left 3s;
+  padding-left: 30%;
+}
